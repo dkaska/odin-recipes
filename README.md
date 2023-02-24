@@ -1,0 +1,2 @@
+This project will be about a recipe website, at the beginning with html, it will include an index page and some recipe pages. I will be using real recipes from a family member to make the project even more worthwhile and useful for me and others.
+At the end of this project I will have demontrated my capabilities for creating a basic html website form scratch using the methods learned in the TOP curriculum.
