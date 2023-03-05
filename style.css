@@ -1,0 +1,16 @@
+body {
+    background-color: #2080ff99;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif, tahoma, helvetica, "Times New Roman";
+    font-size: 16px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: hsl(240, 61%, 70%);
+    text-align: center;
+}
+.centered {
+    text-align: center;
+    list-style-type: none;   
+}
