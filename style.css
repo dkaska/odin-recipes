@@ -2,7 +2,8 @@ body {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-family: sans-serif, tahoma, helvetica, "Times New Roman";
-    font-size: 16px;  
+    font-size: 16px;
+    margin: 40px;  
 }
 h1 {
     font-size: 32px;
@@ -27,9 +28,14 @@ h1 {
     background-position-x: right;
     background-position-y: 70%;
 }
-body {
-    margin: 40px;
+#fideua-body {
+    background-image:url(./img/joanna-kosinska-Prfs32wh-o4-unsplash.jpg);
+    background-size: 5px auto;
+    background-repeat: repeat;
+    background-position-x: right;
+    background-position-y: 70%;
 }
+/*Position text and img side by side with grid*/
 .container {
     display: grid;
     align-items: center;
@@ -50,4 +56,18 @@ body {
     align-content: center;
     grid-column-start: 1;
     grid-row-start: 1;
+}
+/*Position text and img fideua diferent method*/ 
+.container-fideua { 
+    align-content:center;    
+}
+.img-container-fideua {
+    display: inline-block; 
+    width: 0px;
+    margin-top: -400px;
+}
+.text-container-fideua {
+    width: 45%;
+    display: inline-block;
+    margin-right: 5%;
 }
