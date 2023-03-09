@@ -1,16 +1,53 @@
 body {
-    background-color: #2080ff99;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-family: sans-serif, tahoma, helvetica, "Times New Roman";
-    font-size: 16px;
+    font-size: 16px;  
 }
 h1 {
     font-size: 32px;
     font-weight: bold;
-    background-color: hsl(240, 61%, 70%);
     text-align: center;
 }
 .centered {
     text-align: center;
     list-style-type: none;   
+}
+#home-body {
+    background-image:url(./img/joanna-kosinska-Prfs32wh-o4-unsplash.jpg);
+    background-size: 150pc auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40%;
+}
+#risotto-body {
+    background-image:url(./img/annie-spratt-BcGoZXjyPzA-unsplash.jpg);
+    background-size: 150pc auto;
+    background-repeat: repeat;
+    background-position-x: right;
+    background-position-y: 70%;
+}
+body {
+    margin: 40px;
+}
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns:1fr 1fr;
+    column-gap: 30px;
+    margin-top: 60px;
+    
+}
+.img-container {
+    align-content: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.recipe-img {
+    width: 800px;
+}
+.text-container {
+    align-content: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
