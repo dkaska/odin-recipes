@@ -35,27 +35,25 @@ h1 {
     background-position-x: right;
     background-position-y: 70%;
 }
-/*Position text and img side by side with grid*/
+/*Tried to position text and img side by side with grid, now changed as fideua*/
 .container {
-    display: grid;
-    align-items: center;
-    grid-template-columns:1fr 1fr;
-    column-gap: 30px;
-    margin-top: 60px;
-    
-}
-.img-container {
     align-content: center;
-    grid-column-start: 2;
-    grid-column-end: 2;
+    margin: 0 auto;
+}
+/*The position:absolute allows to move the img freely with margin, that otherwise wasn't moving*/
+.img-container {
+    display: inline-block;
+    position: absolute;
+    width: 0px;
+    margin-top: 150px;
 }
 .recipe-img {
-    width: 800px;
+    width: 650px; 
 }
 .text-container {
-    align-content: center;
-    grid-column-start: 1;
-    grid-row-start: 1;
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
 }
 /*Position text and img fideua diferent method*/ 
 .container-fideua { 
